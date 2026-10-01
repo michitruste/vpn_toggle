@@ -28,7 +28,7 @@ pip install pywinauto psutil
 
 ## Usage
 
-Start the switch without a console window:
+Double-click `vpn_toggle.pyw` to start the switch without a console window, or run:
 
 ```bash
 pythonw main.py
@@ -70,7 +70,9 @@ pythonw main.py --demo         # test the switch without GlobalProtect
 
 ### Start with Windows
 
-Press `Win+R`, run `shell:startup`, and create a shortcut there with this target:
+Press `Win+R`, run `shell:startup`, and put a shortcut to `vpn_toggle.pyw` there (right-click the file, **Show more options** > **Create shortcut**, then move the shortcut into that folder).
+
+Or create a shortcut with this target:
 
 ```
 "<pythonw.exe path>" "<VPN Toggle folder>\main.py"
