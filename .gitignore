@@ -1,4 +1,11 @@
+gp_controls.txt
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
+
+# Ignore virtual environments
+venv/
+.venv/
+ENV/
